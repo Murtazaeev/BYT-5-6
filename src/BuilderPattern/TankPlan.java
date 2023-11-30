@@ -1,8 +1,8 @@
 package BuilderPattern;
 
 public interface TankPlan {
-    public void setTankShooter(String head);
-    public void setTankHead(String torso);
-    public void setTankBody(String arms);
-    public void setTankWheels(String legs);
+    public void setTankShooter(String shooter);
+    public void setTankHead(String head);
+    public void setTankBody(String body);
+    public void setTankWheels(String wheels);
 }
